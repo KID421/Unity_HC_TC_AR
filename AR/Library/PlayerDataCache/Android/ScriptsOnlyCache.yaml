@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - NewBehaviourScript
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -9,6 +11,7 @@ ScriptsOnlyBuild:
     Vuforia.UnityExtensions.dll:
     - Vuforia.ImageTargetBehaviour
     - Vuforia.TurnOffBehaviour
+    - Vuforia.VirtualButtonBehaviour
     - Vuforia.VuforiaBehaviour
     - Vuforia.VuforiaConfiguration
     VuforiaScripts.dll:
@@ -49,17 +52,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 15596}
+      Script: {instanceID: 13834}
     - Class: 114
-      Script: {instanceID: 15622}
+      Script: {instanceID: 15530}
     - Class: 114
-      Script: {instanceID: 15630}
+      Script: {instanceID: 15556}
     - Class: 114
-      Script: {instanceID: 15632}
+      Script: {instanceID: 15562}
     - Class: 114
-      Script: {instanceID: 16028}
+      Script: {instanceID: 15564}
     - Class: 114
-      Script: {instanceID: 16034}
+      Script: {instanceID: 15566}
+    - Class: 114
+      Script: {instanceID: 15962}
+    - Class: 114
+      Script: {instanceID: 15968}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -189,6 +196,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: b55a6aa6e451230d0356fb6c08001574
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NewBehaviourScript
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
@@ -1656,4 +1669,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/AR.unity
-  playerPath: E:/KID/Unity_HC_TC_AR/ARCard.apk
+  playerPath: E:/KID/Unity_HC_TC_AR/ARCard2.apk
